@@ -8,47 +8,37 @@
   <h2>Danh sách ảnh</h2>
   <div id="image-list"></div>
 
-  <h2>Danh sách video</h2>
-  <div id="video-list"></div>
-
 <script>
 async function loadFiles(path, containerId) {
-    const owner = "tientai15468";   // TÊN GITHUB CỦA BẠN
-    const repo = "tainguyen";       // TÊN REPO CỦA BẠN
+    const owner = "tientai15468";
+    const repo = "tainguyen";
+    const branch = "main"; // QUAN TRỌNG
 
-    const url = `https://api.github.com/repos/${owner}/${repo}/${path}`;
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
 
     const res = await fetch(url);
     const files = await res.json();
+
+    // Nếu trả về lỗi thì dừng
+    if (!Array.isArray(files)) {
+        console.error("API error:", files);
+        return;
+    }
 
     const container = document.getElementById(containerId);
 
     files.forEach(file => {
         if (file.type === "file") {
-            // Nếu là ảnh
-            if (path === "image") {
-                const img = document.createElement("img");
-                img.src = file.download_url; 
-                img.style.width = "150px";
-                img.style.margin = "10px";
-                container.appendChild(img);
-            }
-
-            // Nếu là video
-            if (path === "video") {
-                const video = document.createElement("video");
-                video.src = file.download_url;
-                video.controls = true;
-                video.width = 300;
-                video.style.margin = "10px";
-                container.appendChild(video);
-            }
+            const img = document.createElement("img");
+            img.src = file.download_url;
+            img.style.width = "150px";
+            img.style.margin = "10px";
+            container.appendChild(img);
         }
     });
 }
 
 loadFiles("image", "image-list");
-loadFiles("video", "video-list");
 </script>
 
 </body>
