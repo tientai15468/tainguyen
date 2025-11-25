@@ -16,7 +16,7 @@ async function loadFiles(path, containerId) {
     const owner = "tientai15468";   // TÊN GITHUB CỦA BẠN
     const repo = "tainguyen";       // TÊN REPO CỦA BẠN
 
-    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+    const url = `https://api.github.com/repos/${owner}/${repo}/${path}`;
 
     const res = await fetch(url);
     const files = await res.json();
