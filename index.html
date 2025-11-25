@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><title>Hello</title>
+<style>
+body{display:grid;place-items:center;min-height:100vh;background:#333;margin:0}
+.boujee{--s:400%;--c1:hsl(15 90% 55%);--c2:hsl(40 95% 55%);
+font-size:clamp(3rem,25vmin,8rem);background:linear-gradient(90deg,var(--c1),var(--c2),var(--c1))0/var(--s)100%;-webkit-background-clip:text;color:transparent;animation:m 8s linear infinite}
+@keyframes m{to{background-position:var(--s) 0}}
+</style>
+</head>
+<body>
+<h1 class="boujee">Hello!</h1>
+</body></html>
