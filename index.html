@@ -1,12 +1,55 @@
-<!DOCTYPE html><html><head>
-<meta charset="UTF-8"><title>Hello</title>
-<style>
-body{display:grid;place-items:center;min-height:100vh;background:#333;margin:0}
-.boujee{--s:400%;--c1:hsl(15 90% 55%);--c2:hsl(40 95% 55%);
-font-size:clamp(3rem,25vmin,8rem);background:linear-gradient(90deg,var(--c1),var(--c2),var(--c1))0/var(--s)100%;-webkit-background-clip:text;color:transparent;animation:m 8s linear infinite}
-@keyframes m{to{background-position:var(--s) 0}}
-</style>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Load Files from GitHub</title>
 </head>
 <body>
-<h1 class="boujee">Hello!</h1>
-</body></html>
+  <h2>Danh sách ảnh</h2>
+  <div id="image-list"></div>
+
+  <h2>Danh sách video</h2>
+  <div id="video-list"></div>
+
+<script>
+async function loadFiles(path, containerId) {
+    const owner = "tientai15468";   // TÊN GITHUB CỦA BẠN
+    const repo = "tainguyen";       // TÊN REPO CỦA BẠN
+
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+
+    const res = await fetch(url);
+    const files = await res.json();
+
+    const container = document.getElementById(containerId);
+
+    files.forEach(file => {
+        if (file.type === "file") {
+            // Nếu là ảnh
+            if (path === "image") {
+                const img = document.createElement("img");
+                img.src = file.download_url; 
+                img.style.width = "150px";
+                img.style.margin = "10px";
+                container.appendChild(img);
+            }
+
+            // Nếu là video
+            if (path === "video") {
+                const video = document.createElement("video");
+                video.src = file.download_url;
+                video.controls = true;
+                video.width = 300;
+                video.style.margin = "10px";
+                container.appendChild(video);
+            }
+        }
+    });
+}
+
+loadFiles("image", "image-list");
+loadFiles("video", "video-list");
+</script>
+
+</body>
+</html>
