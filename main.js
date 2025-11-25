@@ -56,7 +56,7 @@ async function loadFiles(path, containerId, type) {
             }
         }
     });
-}
+} 
 
 loadFiles("image", "image-list", "image");
 loadFiles("video", "video-list", "video");
