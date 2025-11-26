@@ -41,4 +41,4 @@ async function loadFolders(path, containerId) {
 }
 
 // GỌI HÀM
-loadFolders("gameandroi", "folder-list");
+loadFolders("gameandroid", "folder-list");
