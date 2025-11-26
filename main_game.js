@@ -7,6 +7,43 @@ function showToast(message) {
         toast.style.opacity = "0";
     }, 1500);
 }
+const gameEmojis = [
+    // Gaming chung
+    "🎮","🕹️","👾","🧩","🔫","⚔️","🛡️","💣","💥","🔥","⭐","🌟","🏆","🎯","🚀","🎲","🎰",
+
+    // Đua xe & tốc độ
+    "🏍️","🏎️","🚗","🚙","🛵","🚦","🏁","💨","🔥",
+
+    // Thể thao
+    "⚽","🏀","🏈","🎾","🥊","🥋","🥅","⛳","🏓","🏸",
+
+    // Phiêu lưu – Fantasy
+    "🐉","🧙‍♂️","🧙‍♀️","🧝‍♂️","🧝‍♀️","🧟","🧛","🧚","👑","🗡️","🏹","🪄",
+
+    // FPS / Bắn súng / Chiến đấu
+    "🔫","💣","🎯","🪖","🛡️","🚁","🚓","🔪","🧨",
+
+    // Sci-fi / Không gian
+    "👽","🛸","🌌","🔭","🛰️",
+
+    // Arcade / Retro
+    "🟦","🟥","🟧","🟩","🟪","📼","💾",
+
+    // Platformer / Jump game
+    "🦘","🪜","🧗","🎈","🪂",
+
+    // RPG / MMO
+    "💠","💎","🔮","📜","🏺","⚱️","🧪","🗝️","🛒",
+
+    // Animals – dùng cho game cute
+    "🐱","🐶","🐻","🐧","🐰","🐸","🐵","🦊","🐼","🐮",
+
+    // Horror / Dark game
+    "👻","💀","🩸","🧟","🕸️","🕷️"
+];
+function getRandomEmoji() {
+    return gameEmojis[Math.floor(Math.random() * gameEmojis.length)];
+}
 
 async function loadFolders(path, containerId) {
     const owner = "tientai15468";
@@ -29,7 +66,7 @@ async function loadFolders(path, containerId) {
         if (item.type === "dir") {
             const div = document.createElement("div");
             div.className = "folder-item";
-            div.innerHTML = "📁 " + item.name;
+div.innerHTML =  `${getRandomEmoji()}<br>${item.name}`;;
             div.onclick = () => {
                 navigator.clipboard.writeText("https://tientai15468.github.io/tainguyen/" + item.path);
                 showToast("Đã copy tên folder!");
