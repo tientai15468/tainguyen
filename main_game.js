@@ -28,10 +28,10 @@ async function loadFolders(path, containerId) {
     items.forEach(item => {
         if (item.type === "dir") {
             const div = document.createElement("div");
-div.className = "folder-item";
-div.innerHTML = "📁 " + item.name;
+            div.className = "folder-item";
+            div.innerHTML = "📁 " + item.name;
             div.onclick = () => {
-                navigator.clipboard.writeText("https://tientai15468.github.io/tainguyen/"+item.path);
+                navigator.clipboard.writeText("https://tientai15468.github.io/tainguyen/" + item.path);
                 showToast("Đã copy tên folder!");
             };
 
