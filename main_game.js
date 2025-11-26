@@ -45,6 +45,7 @@ function getRandomEmoji() {
     return gameEmojis[Math.floor(Math.random() * gameEmojis.length)];
 }
 
+
 async function loadFolders(path, containerId) {
     const owner = "tientai15468";
     const repo = "tainguyen";
@@ -61,38 +62,45 @@ async function loadFolders(path, containerId) {
     for (const item of items) {
         if (item.type === "dir") {
 
-            const folderDiv = document.createElement("div");
-            folderDiv.className = "folder-item";
+            // Card container
+            const card = document.createElement("div");
+            card.className = "folder-card";
 
-            // Mặc định emoji random
-            let emoji = getRandomEmoji();
-
-            // HTML ban đầu (emoji + tên folder)
-            folderDiv.innerHTML = `
-                <div class="folder-logo">${emoji}</div>
+            // Default thumb (fallback emoji)
+            card.innerHTML = `
+                <img class="folder-thumb" src="" alt="">
                 <div class="folder-name">${item.name}</div>
             `;
 
-            container.appendChild(folderDiv);
+            const thumb = card.querySelector(".folder-thumb");
 
-            // Kiểm tra xem folder có file logo.webp không
+            // Load logo.webp trong folder
             const folderUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${item.path}?ref=${branch}`;
             const subRes = await fetch(folderUrl);
             const subItems = await subRes.json();
 
-            const logoFile = subItems.find(f => f.name.toLowerCase() === "logo.webp");
+            const logo = subItems.find(f => f.name.toLowerCase() === "logo.webp");
 
-            if (logoFile) {
-                // Nếu có logo.webp thì thay emoji bằng ảnh
-                folderDiv.querySelector(".folder-logo").innerHTML =
-                    `<img src="${logoFile.download_url}" class="logo-img">`;
+            if (logo) {
+                thumb.src = logo.download_url;
+            } else {
+                // Nếu không có logo.webp → emoji random
+                thumb.style.display = "flex";
+                thumb.style.alignItems = "center";
+                thumb.style.justifyContent = "center";
+                thumb.style.fontSize = "40px";
+                thumb.style.background = "#555";
+                thumb.src = "";
+                thumb.outerHTML = `<div class="folder-thumb">${getRandomEmoji()}</div>`;
             }
 
-            // Click để copy đường dẫn
-            folderDiv.onclick = () => {
+            // Click để copy path
+            card.onclick = () => {
                 navigator.clipboard.writeText("https://tientai15468.github.io/tainguyen/" +item.path);
-                showToast("Đã copy tên folder!");
+                showToast("Đã copy đường dẫn folder!");
             };
+
+            container.appendChild(card);
         }
     }
 }
