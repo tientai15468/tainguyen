@@ -74,26 +74,8 @@ async function loadFolders(path, containerId) {
 
             const thumb = card.querySelector(".folder-thumb");
 
-            // Load logo.webp trong folder
-            const folderUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${item.path}?ref=${branch}`;
-            const subRes = await fetch(folderUrl);
-            const subItems = await subRes.json();
-
-            const logo = subItems.find(f => f.name.toLowerCase() === "logo.webp");
-
-            if (logo) {
-                thumb.src = logo.download_url;
-            } else {
-                // Nếu không có logo.webp → emoji random
-                thumb.style.display = "flex";
-                thumb.style.alignItems = "center";
-                thumb.style.justifyContent = "center";
-                thumb.style.fontSize = "40px";
-                thumb.style.background = "#555";
-                thumb.src = "";
-                thumb.outerHTML = `<div class="folder-thumb">${getRandomEmoji()}</div>`;
-            }
-
+                thumb.src = "https://tientai15468.github.io/tainguyen/nes_game/"+item.path+"logo.webp";
+         
             // Click để copy path
             card.onclick = () => {
                 navigator.clipboard.writeText("https://tientai15468.github.io/tainguyen/" +item.path);
