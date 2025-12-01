@@ -74,7 +74,7 @@ async function loadFolders(path, containerId) {
 
             const thumb = card.querySelector(".folder-thumb");
 
-                thumb.src = "https://tientai15468.github.io/tainguyen/"+item.path+"logo.webp";
+                thumb.src = "https://tientai15468.github.io/tainguyen/"+item.path+"/logo.webp";
          
             // Click để copy path
             card.onclick = () => {
