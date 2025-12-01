@@ -1,0 +1,515 @@
+  <html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="msvalidate.01" content="990D00BE79532C1E886B0F7932FC0CC7" />
+      <meta property="og:image" content="http://www.nesconsole.com/images/thumbs/balloon-fight.jpg" />
+    <meta property="og:title" content="Play  NES game" />
+  <meta property="og:url" content="http://www.nesconsole.com/" />
+  <meta property="og:description" content="Play  NES game in your browser" />
+  <meta property="og:type" content="game" />
+  <meta name="p:domain_verify" content="dcd5417e015ac739c47b62792f0d30bf"/>
+  <title>
+    NesConsole.com - Play or Download classic NES games on PC or Android, NES flash Emulator</title>
+
+  <meta name="description" content="Play Classic NES Games online directly in your browser. | NES ROMs for Android NES Emulator">
+  
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+   <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui">
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+  <link rel="stylesheet" href="/css/style.css?1501004135">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1544967-9']);
+  _gaq.push(['_setDomainName', 'nesconsole.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body class="hp">
+
+  <header>
+    <a href="/">
+    <img src="/images/logo2-3.png" alt="Nes Console logo - play classic NES games" class="logo"></a>
+    <nav class="ribbon">
+
+        <ul class="navigation" id="alphabet">
+
+	      <li class="cat"><a href="/arcade-games/" title="display Arcade games">Arcade</a></li>
+	      
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/action-games/" title="display Action games">Action</a></li>
+
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/platform-games/" title="display Platform games">Platform</a></li>
+
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/racing-nes-games/" title="display Racing games">Racing</a></li>
+
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/adventure-games/" title="display Adventure games">Adventure</a></li>
+
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/shooter/" title="display shooter games">Shooter</a></li>
+
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/sports/" title="display shooter games">Sports</a></li>
+
+	      <li  class="cat">|</li>
+
+	      <li  class="cat"><a href="/puzzle/" title="display shooter games">Puzzle</a></li>
+
+	      <li  class="cat">|</li>
+
+        <li><a href="/all-nes-games/" title="display all games">All NES games By Alphabet:</a></li>
+
+      <li><a href="/nes-games-num/" class="_hash" title="1-9">1-10</a></li>
+      <li><a href="/nes-games-a/" class=" caps" >a</a></li><li><a href="/nes-games-b/" class=" caps" >b</a></li><li><a href="/nes-games-c/" class=" caps" >c</a></li><li><a href="/nes-games-d/" class=" caps" >d</a></li><li><a href="/nes-games-e/" class=" caps" >e</a></li><li><a href="/nes-games-f/" class=" caps" >f</a></li><li><a href="/nes-games-g/" class=" caps" >g</a></li><li><a href="/nes-games-h/" class=" caps" >h</a></li><li><a href="/nes-games-i/" class=" caps" >i</a></li><li><a href="/nes-games-j/" class=" caps" >j</a></li><li><a href="/nes-games-k/" class=" caps" >k</a></li><li><a href="/nes-games-l/" class=" caps" >l</a></li><li><a href="/nes-games-m/" class=" caps" >m</a></li><li><a href="/nes-games-n/" class=" caps" >n</a></li><li><a href="/nes-games-o/" class=" caps" >o</a></li><li><a href="/nes-games-p/" class=" caps" >p</a></li><li><a href="/nes-games-q/" class=" caps" >q</a></li><li><a href="/nes-games-r/" class=" caps" >r</a></li><li><a href="/nes-games-s/" class=" caps" >s</a></li><li><a href="/nes-games-t/" class=" caps" >t</a></li><li><a href="/nes-games-u/" class=" caps" >u</a></li><li><a href="/nes-games-v/" class=" caps" >v</a></li><li><a href="/nes-games-w/" class=" caps" >w</a></li><li><a href="/nes-games-x/" class=" caps" >x</a></li><li><a href="/nes-games-y/" class=" caps" >y</a></li><li><a href="/nes-games-z/" class=" caps" >z</a></li>  
+  </ul>
+
+      <ul id="menu" class="ribbon-content">
+        <li><a title="play SNES games in your browser" href="http://www.snesconsole.com" class="">SNES games</a></li>
+        <li><a title="play SEGA games in your browser" href="http://www.segaconsoles.com" class="">SEGA Games</a></li>
+      </ul>
+      
+      
+     <div id="searchBox">
+        <input class="R3" placeholder="search game">
+      </div>
+    </nav>
+  </header>
+  
+  <section id="searchResults" class=""></section>
+
+
+  <div id="main" role="main">
+
+  <a href="/" title="Play Retro Nes Games Online"><img src="/images/logo2-3.png" alt="Nes Console logo - play classic NES games" class="logo"></a>
+
+      <h1 class="wT"><span>Play Retro Nintendo Games Online on PC or Android</span></h1>
+    
+
+    <section id="itemOfTheDay" class="cf R3">
+
+    
+
+    
+    </section>
+
+
+    
+
+
+      
+    
+      
+        <div class="topB">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Top-Ad-NES -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-3335479262139823"
+               data-ad-slot="1914599133"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+
+          <a href="http://naknick.com/coons-escape/" target="_top">
+            <img src="/images/coons-escape.jpg" width="728" height="90" alt="Coon's Escape multiplatform game" border="0"/>
+          </a>
+
+        </div>
+    
+
+      
+      <ul id="tiles"><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/10-yard-fight/">
+                                    <img alt="10 Yard Fight"  src="/images/small_thumbs/10-yard-fight.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/10-yard-fight/"><h4>10 Yard Fight</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/balloon-fight/">
+                                    <img alt="Balloon Fight"  src="/images/small_thumbs/balloon-fight.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/balloon-fight/"><h4>Balloon Fight</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/baseball/">
+                                    <img alt="Baseball"  src="/images/small_thumbs/baseball.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/baseball/"><h4>Baseball</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/clu-clu-land/">
+                                    <img alt="Clu Clu Land"  src="/images/small_thumbs/clu-clu-land.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/clu-clu-land/"><h4>Clu Clu Land</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/donkey-kong-jr-math/">
+                                    <img alt="Donkey Kong Jr Math"  src="/images/small_thumbs/donkey-kong-jr-math.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/donkey-kong-jr-math/"><h4>Donkey Kong Jr Math</h4></a></li><li class="zoom shadow ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game-list-NES-200X200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-3335479262139823"
+     data-ad-slot="5896004732"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/donkey-kong-3/">
+                                    <img alt="Donkey Kong 3"  src="/images/small_thumbs/donkey-kong-3.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/donkey-kong-3/"><h4>Donkey Kong 3</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/donkey-kong/">
+                                    <img alt="Donkey Kong"  src="/images/small_thumbs/donkey-kong.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/donkey-kong/"><h4>Donkey Kong</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/donkey-kong-jr/">
+                                    <img alt="Donkey Kong Jr."  src="/images/small_thumbs/donkey-kong-jr.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/donkey-kong-jr/"><h4>Donkey Kong Jr.</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/duck-hunt/">
+                                    <img alt="Duck Hunt"  src="/images/small_thumbs/duck-hunt.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/duck-hunt/"><h4>Duck Hunt</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/excite-bike/">
+                                    <img alt="Excite Bike"  src="/images/small_thumbs/excite-bike.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/excite-bike/"><h4>Excite Bike</h4></a></li><li class="zoom shadow ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game-list-NES-200X200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-3335479262139823"
+     data-ad-slot="5896004732"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/golf/">
+                                    <img alt="Golf"  src="/images/small_thumbs/golf.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/golf/"><h4>Golf</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/gumshoe/">
+                                    <img alt="Gumshoe"  src="/images/small_thumbs/gumshoe.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/gumshoe/"><h4>Gumshoe</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/gyromite/">
+                                    <img alt="Gyromite"  src="/images/small_thumbs/gyromite.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/gyromite/"><h4>Gyromite</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/hogans-alley/">
+                                    <img alt="Hogans Alley"  src="/images/small_thumbs/hogans-alley.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/hogans-alley/"><h4>Hogans Alley</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/ice-climber/">
+                                    <img alt="Ice Climber"  src="/images/small_thumbs/ice-climber.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/ice-climber/"><h4>Ice Climber</h4></a></li><li class="zoom shadow ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game-list-NES-200X200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-3335479262139823"
+     data-ad-slot="5896004732"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/kung-fu/">
+                                    <img alt="Kung Fu"  src="/images/small_thumbs/kung-fu.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/kung-fu/"><h4>Kung Fu</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/mach-rider/">
+                                    <img alt="Mach Rider"  src="/images/small_thumbs/mach-rider.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/mach-rider/"><h4>Mach Rider</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/mario-brothers/">
+                                    <img alt="Mario Brothers"  src="/images/small_thumbs/mario-brothers.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/mario-brothers/"><h4>Mario Brothers</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/pinball/">
+                                    <img alt="Pin Ball"  src="/images/small_thumbs/pinball.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/pinball/"><h4>Pin Ball</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/popeye/">
+                                    <img alt="Popeye"  src="/images/small_thumbs/popeye.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/popeye/"><h4>Popeye</h4></a></li><li class="zoom shadow ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game-list-NES-200X200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-3335479262139823"
+     data-ad-slot="5896004732"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/pro-wrestling/">
+                                    <img alt="Pro Wrestling"  src="/images/small_thumbs/pro-wrestling.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/pro-wrestling/"><h4>Pro Wrestling</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/slalom/">
+                                    <img alt="Slalom"  src="/images/small_thumbs/slalom.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/slalom/"><h4>Slalom</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/soccer/">
+                                    <img alt="Soccer"  src="/images/small_thumbs/soccer.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/soccer/"><h4>Soccer</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/stack-up/">
+                                    <img alt="Stack Up"  src="/images/small_thumbs/stack-up.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/stack-up/"><h4>Stack Up</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/super-mario-bros/">
+                                    <img alt="Super Mario Bros"  src="/images/small_thumbs/super-mario-bros.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/super-mario-bros/"><h4>Super Mario Bros</h4></a></li><li class="zoom shadow ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game-list-NES-200X200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-3335479262139823"
+     data-ad-slot="5896004732"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/tennis/">
+                                    <img alt="Tennis"  src="/images/small_thumbs/tennis.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/tennis/"><h4>Tennis</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/urban-champion/">
+                                    <img alt="Urban Champion"  src="/images/small_thumbs/urban-champion.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/urban-champion/"><h4>Urban Champion</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/volyball/">
+                                    <img alt="Volley Ball"  src="/images/small_thumbs/volyball.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/volyball/"><h4>Volley Ball</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/wild-gunman/">
+                                    <img alt="Wild Gun Man"  src="/images/small_thumbs/wild-gunman.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/wild-gunman/"><h4>Wild Gun Man</h4></a></li><li class="shadow zoom shadow">
+                                  <a class="playLink" href="http://www.nesconsole.com/hp/wreking-crew/">
+                                    <img alt="Wreking Crew"  src="/images/small_thumbs/wreking-crew.jpg" />
+                                  </a>
+                                  <a href="http://www.nesconsole.com/hp/wreking-crew/"><h4>Wreking Crew</h4></a></li><li class="zoom shadow ads"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game-list-NES-200X200 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-3335479262139823"
+     data-ad-slot="5896004732"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></li></ul>
+
+
+  </div>
+  
+<!--   <div class="car"></div>
+  <div class="stamp"></div> -->
+  <footer>
+    <ul class="links">
+      <li>
+        <a href="http://www.segaconsoles.com/">Sega Games</a>
+      </li>
+      <li>
+        <a href="http://www.snesconsole.com/">SNES Games</a>
+      </li>
+    </ul>
+    <span>&copy; 2017 NesConsole.com</span>
+  </footer>
+
+
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+    $('.hamburger').click(function() {
+      $('.menu').slideToggle( 'slow', function() {
+        $('.hamburger').toggleClass('hide');
+        $('.cross').toggleClass('hide');
+      });
+    });
+
+    $('.cross').click(function() {
+      $('.menu' ).slideToggle( 'slow', function() {
+        $('.cross' ).toggleClass('hide');
+        $('.hamburger' ).toggleClass('hide');
+      });
+    });
+
+    $('#overlayAd .close').click(function() {
+      $('.overlayAd').addClass('hide');
+    });
+
+  });
+
+  $.fn.pressEnter = function(fn) {  
+
+    return this.each(function() {  
+        $(this).bind('enterPress', fn);
+        $(this).keyup(function(e){
+            if(e.keyCode == 13)
+            {
+              $(this).trigger('enterPress');
+            }
+        })
+    });  
+ };
+
+    $.ajaxSetup ({  
+        cache: false  
+    });  
+
+    
+      
+    function search(){
+        var ajax_load = "<ul><li>loading...</li></ul>";
+        var searchString = escape($('#searchBox input').val());
+        var loadUrl = "/search.php?s="+searchString+""; 
+        //console.log(loadUrl);
+        if (searchString != '') {
+          $('#searchBox').append($('#searchResults'));
+          $('#searchResults').addClass('show');
+          $("#searchResults").html(ajax_load).load(loadUrl);
+        }
+
+    }
+
+    $('#searchBox').on('click', 'span.close', function(){
+      $(this).parent().removeClass('show');
+    });
+
+    $('.boxArt').on('click', '#downloadRom', function(){
+      $('.overlayAd').removeClass('hide');
+      openModalAd(10);
+    });
+     
+    $("#searchBox input").pressEnter(function(e){
+        search();
+    });
+
+
+
+    var xTriggered = 0;
+    $("#searchBox input").keydown(function(event) {
+        if (xTriggered >= 3) {
+          search();
+        }
+        xTriggered++;
+    });
+
+    $('#searchBox .btn').click(function(){
+        search();
+    });
+
+    function openModalAd(time) {
+
+      var overlayAd = document.getElementById("overlayAd");
+
+      if (time !== undefined) {
+        var timer = setInterval(function(){
+        document.getElementById("countdowntimeerModal").textContent = time;
+        if(time <= 0) {
+          //overlayAd.addClass('hide');
+          $('.downloadAd').addClass('hide');
+          $('.preRollMessage').addClass('hide');
+          //$('#downloadRom').remove();
+          $('#overlayAd .close').removeClass('hide');
+          $('#downloadLink').removeClass('hide');
+          clearInterval(timer);
+        }
+        else {
+          time--;
+        }
+        },1000);
+      }
+
+
+    }
+
+  </script>
+
+
+<div class="sunburst">
+</div>
+
+<div class="overlayAd hide" id="overlayAd">
+  <div class="close hide">&#735;</div>
+      <div class="preRollMessage">You can download ROM in <span id="countdowntimeerModal">10 </span> Seconds</div>
+
+      <a id="downloadLink" class="hide" title= href="/roms/.nes">
+        <span>Download  </span>
+      </a>
+
+      
+        <div class="336X280 downloadAd">
+           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+           <!-- Download-ROM-PC -->
+           <ins class="adsbygoogle"
+                style="display:inline-block;width:336px;height:280px"
+                data-ad-client="ca-pub-3335479262139823"
+                data-ad-slot="5199469538"></ins>
+           <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+           </script>
+        </div>
+
+      </div>
+
+
+
+
+
+       
+<!-- AddThis Button BEGIN -->
+<div class="fb-like socialShit" data-href="http://www.nesconsole.com/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+<!-- AddThis Button END -->
+
+
+
+  <!-- VIDEO ADS -->
+<!-- 
+  <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+  <script type="text/javascript" src="/js/ads.js"></script>
+   -->
+
+<script type="text/javascript">
+  $(document).ready(new function() {
+    //console.log("");
+
+/*  $("a[href*='http://']:not([href*='"+window.location.hostname+":8080'])").click(function(){
+      var thisurl = $(this).attr('href');
+      _gaq.push(['_trackEvent', 'Outbound Links', 'Click', thisurl]);
+  });*/
+
+  });
+</script>
+
+<div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=429684890427350&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>
+
