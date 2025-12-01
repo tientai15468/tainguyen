@@ -6,7 +6,7 @@ if (Module.ENVIRONMENT)
     if ("WEB" === Module.ENVIRONMENT)
         ENVIRONMENT_IS_WEB = !0;
     else if ("WORKER" === Module.ENVIRONMENT)
-        ENVIRONMENT_IS_WORKER = !0;
+        ENVIRONMENT_IS_WORKER = !0; 
     else if ("NODE" === Module.ENVIRONMENT)
         ENVIRONMENT_IS_NODE = !0;
     else {
