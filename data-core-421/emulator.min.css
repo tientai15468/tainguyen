@@ -701,29 +701,35 @@
 }
 
 .ejs_dpad_horizontal:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 50%;
-	z-index: 1;
-	transform: translate(0, -50%);
-	width: 0;
-	height: 0;
-	border: 8px solid;
-	border-color: transparent #333 transparent transparent
+    content: "◀";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    z-index: 1;
+    color: #333;
+    transform: translate(0, -50%);
+    width: 36px;
+    height: 36px;
 }
 
 .ejs_dpad_horizontal:after {
-	content: "";
-	position: absolute;
-	right: 0;
-	top: 50%;
-	z-index: 1;
-	transform: translate(0, -50%);
-	width: 0;
-	height: 0;
-	border: 8px solid;
-	border-color: transparent transparent transparent #333
+    content: "▶";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    z-index: 1;
+    color: #333;
+    transform: translate(0, -50%);
+    width: 36px;
+    height: 36px;
 }
 
 .ejs_dpad_vertical {
@@ -737,29 +743,35 @@
 }
 
 .ejs_dpad_vertical:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 50%;
-	z-index: 1;
-	transform: translate(-50%, 0);
-	width: 0;
-	height: 0;
-	border: 8px solid;
-	border-color: transparent transparent #333 transparent
+    content: "▲";
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0); 
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    z-index: 1;
+    color: #333; 
+    width: 36px;
+    height: 36px;
 }
 
-.ejs_dpad_vertical:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	z-index: 1;
-	transform: translate(-50%, 0);
-	width: 0;
-	height: 0;
-	border: 8px solid;
-	border-color: #333 transparent transparent transparent
+.ejs_dpad_vertical:after {  
+    content: "▼";
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    z-index: 1;
+    color: #333;
+    width: 36px;
+    height: 36px;
 }
 
 .ejs_dpad_bar {
