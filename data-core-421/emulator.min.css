@@ -628,7 +628,7 @@
 
 .ejs_virtualGamepad_bottom {
     position: absolute;
-    bottom: -40px;
+    bottom: 0px;
     height: 80px;
     width: 140px;
     right: 10px;
