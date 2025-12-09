@@ -637,7 +637,7 @@
 .ejs_virtualGamepad_left {
     position: fixed;
     width: 125px;
-    height: 125px;
+    height: 50px;
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
