@@ -1,0 +1,1654 @@
+[
+    {
+        "sequenceId" : 0,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1000,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 1,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "curve",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },    
+    {
+        "sequenceId" : 2,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 3,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 4,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "coins_frenzy",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 5,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "bomb",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "coins_frenzy",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 6,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight_with_effect",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "coins_frenzy",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 7,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "coins_frenzy",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 8,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "bomb",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 9,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "bomb",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 650,
+                            "itemType": "ball",
+                            "trajectoryType": "curve",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "curve",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "coins_frenzy",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 10,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "bomb",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 1000,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 400,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 11,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "curve",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "curve",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 12,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "bomb",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 13,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 14,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "from_left_side",
+                            "side": "from_right_side",
+                            "targetCircleSide": "RIGHT"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 15,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "bomb",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 850,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "bomb",
+                            "trajectoryType": "bouncing",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 3000,
+                            "itemType": "break",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "from_right_side"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 300,
+                            "itemType": "coins_frenzy",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 16,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "egg",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 17,
+        "firstRound": false,
+        "shots" :
+                    [
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 500,
+                            "itemType": "bomb",
+                            "trajectoryType": "parabolic",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    },
+    {
+        "sequenceId" : 18,
+        "firstRound": true,
+        "shots" :
+                    [
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "bouncing",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1250,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "left"
+                        },
+                        {
+                            "delay": 1000,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_bottom",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_left_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "straight",
+                            "side": "from_right_side",
+                            "targetCircleSide": "right"
+                        },
+                        {
+                            "delay": 750,
+                            "itemType": "ball",
+                            "trajectoryType": "parabolic",
+                            "side": "from_right_side",
+                            "targetCircleSide": "left"
+                        }
+                    ]
+    }
+]

@@ -1,0 +1,174 @@
+[
+    {
+        "setId": 0,
+        "events":
+            [
+                {
+                    "ball_number": 8,
+                    "state": "activate_2_circles"
+                },
+                {
+                    "ball_number": 14,
+                    "state": "small_target_circle"
+                },
+                {
+                    "ball_number": 18,
+                    "state": "activate_one_circle"
+                },
+                {
+                    "ball_number": 20,
+                    "state": "activate_home_run"
+                },
+                {
+                    "ball_number": 23,
+                    "state": "deactivate_home_run"
+                },
+                {
+                    "ball_number": 22,
+                    "state": "normal_target_circle"
+                }
+            ]
+    },
+    {
+        "setId": 1,
+        "events":
+            [
+                {
+                    "ball_number": 8,
+                    "state": "scale_up"
+                },
+                {
+                    "ball_number": 14,
+                    "state": "activate_2_circles"
+                },
+                {
+                    "ball_number": 18,
+                    "state": "scale_down"
+                },
+                {
+                    "ball_number": 26,
+                    "state": "small_target_circle"
+                },
+                {
+                    "ball_number": 36,
+                    "state": "normal_target_circle"
+                }
+            ]
+    },
+    {
+        "setId": 2,
+        "events":
+            [
+                {
+                    "ball_number": 8,
+                    "state": "small_target_circle"
+                },
+                {
+                    "ball_number": 10,
+                    "state": "activate_home_run"
+                },
+                {
+                    "ball_number": 12,
+                    "state": "deactivate_home_run"
+                },
+                {
+                    "ball_number": 14,
+                    "state": "activate_2_circles"
+                },
+                {
+                    "ball_number": 20,
+                    "state": "normal_target_circle"
+                }
+            ]   
+    },
+    {
+        "setId": 3,
+        "events":
+            [
+                {
+                    "ball_number": 8,
+                    "state": "scale_up"
+                },
+                {
+                    "ball_number": 17,
+                    "state": "activate_2_circles"
+                },
+                {
+                    "ball_number": 20,
+                    "state": "scale_down"
+                },
+                {
+                    "ball_number": 22,
+                    "state": "activate_home_run"
+                },
+                {
+                    "ball_number": 24,
+                    "state": "deactivate_home_run"
+                },
+                {
+                    "ball_number": 35,
+                    "state": "activate_one_circle"
+                }
+            ]
+    },
+    {
+        "setId": 4,
+        "events":
+            [
+                {
+                    "ball_number": 8,
+                    "state": "activate_2_circles"
+                },
+                {
+                    "ball_number": 12,
+                    "state": "activate_home_run"
+                },
+                {
+                    "ball_number": 14,
+                    "state": "deactivate_home_run"
+                },
+                {
+                    "ball_number": 20,
+                    "state": "scale_up"
+                },
+                {
+                    "ball_number": 25,
+                    "state": "scale_down"
+                },
+                {
+                    "ball_number": 38,
+                    "state": "scale_up"
+                }
+            ]
+    },
+    {
+        "setId": 5,
+        "events":
+            [
+                {
+                    "ball_number": 10,
+                    "state": "activate_2_circles"
+                },
+                {
+                    "ball_number": 14,
+                    "state": "activate_home_run"
+                },
+                {
+                    "ball_number": 17,
+                    "state": "deactivate_home_run"
+                },
+                {
+                    "ball_number": 20,
+                    "state": "scale_up"
+                },
+                {
+                    "ball_number": 25,
+                    "state": "scale_down"
+                },
+                {
+                    "ball_number": 35,
+                    "state": "activate_one_circle"
+                }
+            ]
+    }
+]

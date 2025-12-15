@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "bg_ground.png",
+	"frame": {"x":1,"y":1,"w":560,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":768},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "bg_stadium.png",
+	"frame": {"x":563,"y":1,"w":560,"h":282},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":282},
+	"sourceSize": {"w":560,"h":282}
+},
+{
+	"filename": "board-frame.png",
+	"frame": {"x":1125,"y":1,"w":366,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":366,"h":268},
+	"sourceSize": {"w":366,"h":268}
+},
+{
+	"filename": "field_left_patch.png",
+	"frame": {"x":1,"y":771,"w":560,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":540},
+	"sourceSize": {"w":560,"h":540}
+},
+{
+	"filename": "field_right_patch.png",
+	"frame": {"x":1,"y":1313,"w":560,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":540},
+	"sourceSize": {"w":560,"h":540}
+},
+{
+	"filename": "hole.png",
+	"frame": {"x":1493,"y":1,"w":267,"h":266},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":267,"h":266},
+	"sourceSize": {"w":267,"h":266}
+},
+{
+	"filename": "lineEffect_01.png",
+	"frame": {"x":247,"y":1994,"w":18,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":542,"y":467,"w":18,"h":48},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_02.png",
+	"frame": {"x":158,"y":1855,"w":33,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":527,"y":432,"w":33,"h":77},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_03.png",
+	"frame": {"x":108,"y":1855,"w":48,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":512,"y":396,"w":48,"h":82},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_04.png",
+	"frame": {"x":1,"y":1855,"w":53,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":497,"y":360,"w":53,"h":83},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_05.png",
+	"frame": {"x":54,"y":1940,"w":52,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":482,"y":325,"w":52,"h":82},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_06.png",
+	"frame": {"x":1,"y":1940,"w":51,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":467,"y":289,"w":51,"h":83},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_07.png",
+	"frame": {"x":56,"y":1855,"w":50,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":452,"y":254,"w":50,"h":82},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_08.png",
+	"frame": {"x":108,"y":1939,"w":63,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":423,"y":222,"w":63,"h":78},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_09.png",
+	"frame": {"x":173,"y":1934,"w":72,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":398,"y":196,"w":72,"h":69},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_10.png",
+	"frame": {"x":247,"y":1926,"w":67,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":387,"y":186,"w":67,"h":66},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_11.png",
+	"frame": {"x":193,"y":1855,"w":59,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":379,"y":159,"w":59,"h":69},
+	"sourceSize": {"w":560,"h":768}
+},
+{
+	"filename": "lineEffect_12.png",
+	"frame": {"x":267,"y":1994,"w":26,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":379,"y":159,"w":26,"h":43},
+	"sourceSize": {"w":560,"h":768}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "texture_atlas_4.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a86b8803c63c370af02567ef80b0142d:4c3ec1fd034a8db152e8e20181cd5b66:da96745a4979f34ffd84fb8b5d66e27c$"
+}
+}
