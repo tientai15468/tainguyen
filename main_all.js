@@ -50,5 +50,3 @@ async function loadFolders(path, containerId) {
     }
 }
 
-// GỌI HÀM
-loadFolders("nes_game", "folder-list");
