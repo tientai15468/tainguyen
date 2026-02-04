@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex,nofollow" />
+  <title>BOT Dumv</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      border: none
+    }
+
+    #game {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+  </style>
+  <script>
+    window.addEventListener("keydown", function (e) {
+      if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+      }
+    }, false);
+  </script>
+</head>
+
+<body>
+  <div id="game"></div>
+  <script>
+    EJS_player = "#game";
+    EJS_core = "nes";
+    EJS_pathtodata = "https://tientai15468.github.io/tainguyen/data-core-421/";
+    EJS_gameUrl = window.location.href + "data.nes";
+    EJS_backgroundImage = window.location.href + "logo.webp";	
+  </script>
+  <script src="https://tientai15468.github.io/tainguyen/loader.js"></script>
+  <script src="https://tientai15468.github.io/tainguyen/rocket-loader.min.js" defer></script>
+</body>
+
+</html>
