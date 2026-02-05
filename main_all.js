@@ -53,60 +53,74 @@ async function loadFolders(path, containerId) {
 async function loadFiles(path, containerId, type) {
     const owner = "tientai15468";
     const repo = "tainguyen";
-    const branch = "main";
-
-    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
+    
+    // API lấy lịch sử commit của folder này
+    const commitUrl = `https://api.github.com/repos/${owner}/${repo}/commits?path=${path}`;
 
     try {
-        const res = await fetch(url);
-        let files = await res.json();
+        const res = await fetch(commitUrl);
+        const commits = await res.json();
 
-        if (!Array.isArray(files)) {
-            console.error("API error:", files);
-            return;
-        }
+        if (!Array.isArray(commits)) return;
 
-        // --- BẮT ĐẦU SẮP XẾP ---
-        // Nếu bạn đặt tên file có chứa ngày tháng hoặc số tăng dần, 
-        // dùng reverse() là cách tối ưu nhất về hiệu suất.
-        files.reverse(); 
-        // -----------------------
-
+        // Dùng Set để tránh trùng lặp nếu một file được sửa nhiều lần
+        const seenFiles = new Set();
         const container = document.getElementById(containerId);
-        container.innerHTML = ""; // Xóa nội dung cũ nếu cần
+        container.innerHTML = "";
 
-        files.forEach(file => {
-            if (file.type === "file") {
-                // Xử lý LOAD ẢNH
-                if (type === "image" && file.name.match(/\.(jpg|jpeg|png|webp|gif)$/i)) {
-                    const img = document.createElement("img");
-                    img.src = file.download_url;
-                    img.loading = "lazy"; // Tối ưu tốc độ tải trang
+        // Duyệt qua các commit (GitHub đã sắp xếp commit mới nhất lên đầu)
+        for (const commit of commits) {
+            // Lấy chi tiết từng commit để biết file nào đã thay đổi
+            const detailRes = await fetch(commit.url);
+            const detail = await detailRes.json();
 
-                    img.onclick = () => {
-                        navigator.clipboard.writeText(file.download_url);
-                        showToast("Đã copy link ảnh!");
-                    };
-                    container.appendChild(img);
+            detail.files.forEach(file => {
+                // Kiểm tra nếu file thuộc folder đang tìm và chưa hiển thị
+                if (file.filename.startsWith(path) && !seenFiles.has(file.filename)) {
+                    
+                    const fileName = file.filename.split('/').pop();
+                    const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.filename}`;
+
+                    // Lọc theo định dạng ảnh
+                    if (type === "image" && fileName.match(/\.(jpg|jpeg|png|webp)$/i)) {
+                        renderImage(container, rawUrl);
+                        seenFiles.add(file.filename);
+                    }
+                    
+                    // Lọc theo định dạng video
+                    if (type === "video" && fileName.endsWith(".mp4")) {
+                        renderVideo(container, rawUrl);
+                        seenFiles.add(file.filename);
+                    }
                 }
-
-                // Xử lý LOAD VIDEO
-                if (type === "video" && file.name.endsWith(".mp4")) {
-                    const video = document.createElement("video");
-                    video.src = file.download_url;
-                    video.controls = true;
-
-                    // Đối với video, thường dùng nút copy riêng hoặc click phải, 
-                    // vì click vào video thường là để Play.
-                    video.onplay = () => {
-                         navigator.clipboard.writeText(file.download_url);
-                         showToast("Đã copy link video!");
-                    };
-                    container.appendChild(video);
-                }
-            }
-        });
-    } catch (error) {
-        console.error("Fetch error:", error);
+            });
+            
+            // Giới hạn số lượng file hiển thị để tránh load quá lâu (ví dụ: 10 file mới nhất)
+            if (seenFiles.size >= 15) break;
+        }
+    } catch (e) {
+        console.error("Lỗi:", e);
     }
+}
+
+// Hàm bổ trợ để vẽ giao diện
+function renderImage(container, url) {
+    const img = document.createElement("img");
+    img.src = url;
+    img.onclick = () => {
+        navigator.clipboard.writeText(url);
+        showToast("Đã copy link ảnh!");
+    };
+    container.appendChild(img);
+}
+
+function renderVideo(container, url) {
+    const video = document.createElement("video");
+    video.src = url;
+    video.controls = true;
+    video.onclick = () => {
+        navigator.clipboard.writeText(url);
+        showToast("Đã copy link video!");
+    };
+    container.appendChild(video);
 }
