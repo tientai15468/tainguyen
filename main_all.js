@@ -50,7 +50,6 @@ async function loadFolders(path, containerId) {
     }
 }
 
-
 async function loadFiles(path, containerId, type) {
     const owner = "tientai15468";
     const repo = "tainguyen";
@@ -58,45 +57,56 @@ async function loadFiles(path, containerId, type) {
 
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
 
-    const res = await fetch(url);
-    const files = await res.json();
+    try {
+        const res = await fetch(url);
+        let files = await res.json();
 
-    if (!Array.isArray(files)) {
-        console.error("API error:", files);
-        return;
-    }
-
-    const container = document.getElementById(containerId);
-
-    files.forEach(file => {
-        if (file.type === "file") {
-
-            // LOAD ẢNH
-            if (type === "image" && file.name.match(/\.(jpg|jpeg|png|webp)$/i)) {
-                const img = document.createElement("img");
-                img.src = file.download_url;
-
-                img.onclick = () => {
-                    navigator.clipboard.writeText(file.download_url);
-                    showToast("Đã copy link ảnh!");
-                };
-
-                container.appendChild(img);
-            }
-
-            // LOAD VIDEO
-            if (type === "video" && file.name.endsWith(".mp4")) {
-                const video = document.createElement("video");
-                video.src = file.download_url;
-                video.controls = true;
-
-                video.onclick = () => {
-                    navigator.clipboard.writeText(file.download_url);
-                    showToast("Đã copy link video!");
-                };
-
-                container.appendChild(video);
-            }
+        if (!Array.isArray(files)) {
+            console.error("API error:", files);
+            return;
         }
-    });
-} 
+
+        // --- BẮT ĐẦU SẮP XẾP ---
+        // Nếu bạn đặt tên file có chứa ngày tháng hoặc số tăng dần, 
+        // dùng reverse() là cách tối ưu nhất về hiệu suất.
+        files.reverse(); 
+        // -----------------------
+
+        const container = document.getElementById(containerId);
+        container.innerHTML = ""; // Xóa nội dung cũ nếu cần
+
+        files.forEach(file => {
+            if (file.type === "file") {
+                // Xử lý LOAD ẢNH
+                if (type === "image" && file.name.match(/\.(jpg|jpeg|png|webp|gif)$/i)) {
+                    const img = document.createElement("img");
+                    img.src = file.download_url;
+                    img.loading = "lazy"; // Tối ưu tốc độ tải trang
+
+                    img.onclick = () => {
+                        navigator.clipboard.writeText(file.download_url);
+                        showToast("Đã copy link ảnh!");
+                    };
+                    container.appendChild(img);
+                }
+
+                // Xử lý LOAD VIDEO
+                if (type === "video" && file.name.endsWith(".mp4")) {
+                    const video = document.createElement("video");
+                    video.src = file.download_url;
+                    video.controls = true;
+
+                    // Đối với video, thường dùng nút copy riêng hoặc click phải, 
+                    // vì click vào video thường là để Play.
+                    video.onplay = () => {
+                         navigator.clipboard.writeText(file.download_url);
+                         showToast("Đã copy link video!");
+                    };
+                    container.appendChild(video);
+                }
+            }
+        });
+    } catch (error) {
+        console.error("Fetch error:", error);
+    }
+}
