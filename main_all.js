@@ -50,77 +50,53 @@ async function loadFolders(path, containerId) {
     }
 }
 
+
 async function loadFiles(path, containerId, type) {
     const owner = "tientai15468";
     const repo = "tainguyen";
-    
-    // API lấy lịch sử commit của folder này
-    const commitUrl = `https://api.github.com/repos/${owner}/${repo}/commits?path=${path}`;
+    const branch = "main";
 
-    try {
-        const res = await fetch(commitUrl);
-        const commits = await res.json();
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
 
-        if (!Array.isArray(commits)) return;
+    const res = await fetch(url);
+    const files = await res.json();
 
-        // Dùng Set để tránh trùng lặp nếu một file được sửa nhiều lần
-        const seenFiles = new Set();
-        const container = document.getElementById(containerId);
-        container.innerHTML = "";
-
-        // Duyệt qua các commit (GitHub đã sắp xếp commit mới nhất lên đầu)
-        for (const commit of commits) {
-            // Lấy chi tiết từng commit để biết file nào đã thay đổi
-            const detailRes = await fetch(commit.url);
-            const detail = await detailRes.json();
-
-            detail.files.forEach(file => {
-                // Kiểm tra nếu file thuộc folder đang tìm và chưa hiển thị
-                if (file.filename.startsWith(path) && !seenFiles.has(file.filename)) {
-                    
-                    const fileName = file.filename.split('/').pop();
-                    const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.filename}`;
-
-                    // Lọc theo định dạng ảnh
-                    if (type === "image" && fileName.match(/\.(jpg|jpeg|png|webp)$/i)) {
-                        renderImage(container, rawUrl);
-                        seenFiles.add(file.filename);
-                    }
-                    
-                    // Lọc theo định dạng video
-                    if (type === "video" && fileName.endsWith(".mp4")) {
-                        renderVideo(container, rawUrl);
-                        seenFiles.add(file.filename);
-                    }
-                }
-            });
-            
-            // Giới hạn số lượng file hiển thị để tránh load quá lâu (ví dụ: 10 file mới nhất)
-            if (seenFiles.size >= 15) break;
-        }
-    } catch (e) {
-        console.error("Lỗi:", e);
+    if (!Array.isArray(files)) {
+        console.error("API error:", files);
+        return;
     }
-}
 
-// Hàm bổ trợ để vẽ giao diện
-function renderImage(container, url) {
-    const img = document.createElement("img");
-    img.src = url;
-    img.onclick = () => {
-        navigator.clipboard.writeText(url);
-        showToast("Đã copy link ảnh!");
-    };
-    container.appendChild(img);
-}
+    const container = document.getElementById(containerId);
 
-function renderVideo(container, url) {
-    const video = document.createElement("video");
-    video.src = url;
-    video.controls = true;
-    video.onclick = () => {
-        navigator.clipboard.writeText(url);
-        showToast("Đã copy link video!");
-    };
-    container.appendChild(video);
-}
+    files.forEach(file => {
+        if (file.type === "file") {
+
+            // LOAD ẢNH
+            if (type === "image" && file.name.match(/\.(jpg|jpeg|png|webp)$/i)) {
+                const img = document.createElement("img");
+                img.src = file.download_url;
+
+                img.onclick = () => {
+                    navigator.clipboard.writeText(file.download_url);
+                    showToast("Đã copy link ảnh!");
+                };
+
+                container.appendChild(img);
+            }
+
+            // LOAD VIDEO
+            if (type === "video" && file.name.endsWith(".mp4")) {
+                const video = document.createElement("video");
+                video.src = file.download_url;
+                video.controls = true;
+
+                video.onclick = () => {
+                    navigator.clipboard.writeText(file.download_url);
+                    showToast("Đã copy link video!");
+                };
+
+                container.appendChild(video);
+            }
+        }
+    });
+} 
